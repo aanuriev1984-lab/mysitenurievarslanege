@@ -9,6 +9,7 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Subjects from './pages/Subjects.jsx'
+import AiTools from './pages/AiTools.jsx'
 
 function ScrollManager() {
   const { pathname, hash } = useLocation()
@@ -68,6 +69,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/subjects" element={<Subjects />} />
+          <Route path="/ai" element={<AiTools />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

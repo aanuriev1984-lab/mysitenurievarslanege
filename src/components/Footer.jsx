@@ -27,6 +27,7 @@ export default function Footer() {
             <h2>Разделы</h2>
             <Link to="/">Обо мне</Link>
             <Link to="/subjects">Предметы ЕГЭ</Link>
+            <Link to="/ai">Нейросети</Link>
             <Link to="/subjects#checklist">Мой чек-лист</Link>
           </nav>
 

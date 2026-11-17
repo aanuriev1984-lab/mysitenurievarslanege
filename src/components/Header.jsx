@@ -6,6 +6,7 @@ import { ArrowUpRight, CloseIcon, MenuIcon } from './Icons.jsx'
 const links = [
   { to: '/', label: 'Обо мне' },
   { to: '/subjects', label: 'Предметы ЕГЭ' },
+  { to: '/ai', label: 'Нейросети' },
 ]
 
 export default function Header() {
